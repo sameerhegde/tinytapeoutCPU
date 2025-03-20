@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "Small CPU"       
+  title:        "SmallCPU"       
   author:       "Sameer Hegde"       
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "small RISC V based CPU"        
