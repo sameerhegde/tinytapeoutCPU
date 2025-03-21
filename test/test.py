@@ -53,6 +53,6 @@ async def test_cpu(dut):
 
     # Check the output (should be sum of R1 and R2)
     expected_output = 37  # Since R1 = 3, R2 = 34  → R3 = R1 + R2 = 37
-    assert dut.uo_out.value == expected_output, f"Test failed: Expected {expected_output}, got {dut.uo_out.value}"
+    assert dut.uo_out.value == expected_output, f"Test failed:  Expected {expected_output}, got {dut.uo_out.value}"
 
     dut._log.info(f"Test passed: Output {dut.uo_out.value.integer}")
